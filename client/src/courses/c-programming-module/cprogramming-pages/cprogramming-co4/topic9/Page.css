@@ -1,0 +1,25 @@
+.linked-video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.linked-video-container > a {
+    text-decoration: none;
+}
+
+.linked-ul-container li,  ul {
+    padding: 20px;
+}
+
+.linked-ul-container::before {
+    content: '';
+    position: absolute;
+    min-height: 53vw;
+    margin-top: 3.4%;
+    margin-left: .6%;
+    border: .1px solid black;
+}
+

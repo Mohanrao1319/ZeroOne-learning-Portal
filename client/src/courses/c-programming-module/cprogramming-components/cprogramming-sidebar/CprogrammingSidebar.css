@@ -1,0 +1,101 @@
+
+.CprogrammingSidebarComponent {
+    height: fit-content;
+
+}
+
+.CprogrammingSidebarContainer {
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 10px;
+    background-color: rgb(252, 249, 249);
+}
+
+.co-header {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(192, 190, 190); ;
+}
+
+.co-header h2 {
+    font-size: 1.2vw;
+}
+
+.routes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.routes .link {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(99, 98, 98);
+}
+.routes .whole {
+    padding: 5px 0px;
+    margin: 3px 0px;
+}
+
+.whole-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.whole-link:hover {
+    cursor: pointer;
+}
+
+  
+.link_text {
+    margin-right: 5px;
+    font-weight: 600;
+}
+  
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    margin-top: 10px;
+}
+  
+.dropdown-content {
+    flex-basis: 100%; 
+    color: #333;
+}
+
+.dc-keys {
+    margin: 8px 0px;
+    text-decoration: none;
+}
+
+.dc-keys-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(78, 76, 76);
+}
+
+.fa {
+    margin-left: auto;
+    transition: transform 0.2s;
+}
+  
+.fa-angle-double-right {
+    transform: rotate(0deg);
+}
+  
+.fa-angle-double-up {
+    transform: rotate(-180deg);
+}
+
+.active a {
+    color: red;
+}
+
+.expanded {
+    color: red;
+}

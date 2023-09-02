@@ -1,0 +1,41 @@
+.c3t-intro-points {
+    padding: 20px
+}
+
+.c3t-intro-points li {
+    padding: 10px;
+}
+
+.binary-container {
+    display: grid;
+    gap: 4vw;
+}
+
+.binary-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+.binary-box-table {
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid gray;
+}
+
+.binary-box-table td {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    border-left: 1px solid gray;
+    background-color: rgb(192, 243, 192);
+}
+
+#binary-color {
+    background-color: rgb(236, 208, 213);
+}
+
+
+#binary-color-mid {
+    background-color: rgb(231, 231, 155);
+}

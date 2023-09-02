@@ -1,0 +1,7 @@
+ 
+                        /* common content container */
+ .c3t-common-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

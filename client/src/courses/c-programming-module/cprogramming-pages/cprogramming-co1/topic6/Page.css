@@ -1,0 +1,54 @@
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    border : 1px solid gray;
+ }
+
+ td, th {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(228, 242, 248);
+ }
+
+.Arithmetic-Operators{
+   display: grid;
+   gap: 2vw;
+   border-bottom: 1px solid gray;
+   padding-bottom: 100px;
+}
+
+.Increment-Decrement {
+   display: grid;
+   gap: 2vw;
+   border-bottom: 1px solid gray;
+   padding-bottom: 100px;
+}
+
+.Assignment-Operators {
+   display: grid;
+   gap: 2vw;
+   border-bottom: 1px solid gray;
+   padding-bottom: 100px;
+}
+
+.Comparison-Operators {
+   display: grid;
+   gap: 2vw;
+   border-bottom: 1px solid gray;
+   padding-bottom: 100px;
+}
+
+.Logical-Operators {
+   display: grid;
+   gap: 2vw;
+   border-bottom: 1px solid gray;
+   padding-bottom: 100px;
+}
+
+.Bitwise-Operators {
+   display: grid;
+   gap: 2vw;
+   border-bottom: 1px solid gray;
+   padding-bottom: 100px;
+}

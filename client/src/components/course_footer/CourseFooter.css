@@ -1,0 +1,241 @@
+.footer-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 50, 77);
+}
+
+.footer-in-one {
+    border-bottom: 1px solid gray;
+    height: 20vw;
+    width: 100%;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-in-one-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 10vw;
+}
+
+
+.footer-in-one-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 15vw;
+}
+
+.footer-quick-links {
+    height: 7vw;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+.footer-in-three {
+    color: white;
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    background-color: rgb(34, 40, 62);
+}
+
+.footer-in-three a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footer-in-one-two p {
+    color: gray;
+}
+.footer-in-socials {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 7vw;
+    width: 100%;
+}
+
+.footer-in-socials-link {
+    color: white;
+}
+
+.telegram {
+    font-size: 35px;
+}
+
+.github {
+    font-size: 35px;
+}
+
+.footer-in-names a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-in-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail {
+    color: gray;
+    font-size: 1rem;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.scroll-to-top {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.instagram {
+    font-size: 45px;
+}
+
+.social-hover:hover{
+    color: rgb(29, 161, 242);
+}
+
+@media only screen and (max-width: 900px) {
+
+    .footer-container {
+        height: 100vw;
+        justify-content: normal;
+        align-items: normal;
+    }
+
+    .footer-in-one {
+        flex-direction: column;
+        font-size: 2vw;
+        align-items: normal;
+        justify-content: center;
+        height: 80vw;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .footer-in-one-one { 
+        width: 100%;
+        height: 40vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-in-one-two { 
+        width: 100%;
+        height: 40vw;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        font-size: 8px;
+    }
+
+    .footer-in-three {
+        flex-direction: column;
+        font-size: 10px;
+        gap: 15px;
+        height: 20vw;
+        width: 100%;
+    }
+
+    .telegram {
+        font-size: 25px;
+    }
+    
+    .github {
+        font-size: 25px;
+    }
+
+    .instagram {
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .footer-container {
+        height: 100vw;
+        justify-content: normal;
+        align-items: normal;
+    }
+
+    .footer-in-one {
+        flex-direction: column;
+        font-size: 2vw;
+        align-items: normal;
+        justify-content: center;
+        height: 80vw;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .footer-in-one-one { 
+        width: 100%;
+        height: 40vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-in-one-two { 
+        width: 100%;
+        height: 40vw;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        font-size: 8px;
+    }
+
+    .footer-in-three {
+        flex-direction: column;
+        font-size: 10px;
+        gap: 15px;
+        height: 20vw;
+        width: 100%;
+    }
+
+    .telegram {
+        font-size: 25px;
+    }
+    
+    .github {
+        font-size: 25px;
+    }
+
+    .instagram {
+        font-size: 25px;
+    }
+}

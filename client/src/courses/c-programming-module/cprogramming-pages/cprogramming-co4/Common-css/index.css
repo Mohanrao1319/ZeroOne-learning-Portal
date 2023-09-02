@@ -1,0 +1,7 @@
+ 
+ 
+ .c4t-common-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

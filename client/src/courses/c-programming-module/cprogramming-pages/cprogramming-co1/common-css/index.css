@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+.topic-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.topic-container h1, h3{
+    color: rgba(0, 0, 139, 0.957);
+}
+
+.topic-footer h1 {
+    color: white;
+}
+
+.topic-main {
+    display: flex;
+}
+
+.co-sidebar {
+    position: sticky;
+    top: 20%; 
+    left: 5%; 
+    width: 28%;
+    height: fit-content;
+}
+
+.topic-content {
+    display: flex;
+    flex-direction: column;
+    border: .1px solid rgba(0, 0, 139, 0.957);
+    width: 65%;
+    height: fit-content;
+    margin-left: auto;
+    padding: 5vw;
+    gap: 2vw;
+    box-shadow: rgba(17, 44, 218, 0.24) 0px 3px 30px;
+    border-radius: 10px;
+}
+
+.topic-content-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    border-bottom: 1px solid gray;
+    padding: 50px;
+}
+
+.code-common-container {
+    position: relative;
+ }
+ 
+.code-common-container button {
+     position: absolute;
+     top: 1rem;
+     right: 0;
+     background-color: transparent;
+     color: white;
+     padding-right: 10px;
+     border: none;
+     font-size: 20px;
+ }
+ 
+.c1t-common-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .topic-container h1, h3 {
+        font-size: 6vw;
+    }
+
+     .topic-main {
+        flex-direction: column;
+        gap: 2vw;
+        justify-content: normal;
+        align-items: normal;
+        height: fit-content;
+        width: 100%;
+     }
+
+     .co-sidebar {
+        position: relative;
+        left: 25%;
+        width: 50%;
+     }
+     
+     .topic-content { 
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .topic-container h1, h3 {
+        font-size: 6vw;
+    }
+
+    .topic-main {
+        padding: 16% 0;
+        gap: 5vw;
+        justify-content: normal;
+        align-items: normal;
+        height: fit-content;
+    }
+
+    .topic-content-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+        border-bottom: 1px solid gray;
+        padding: 40px 10px;
+    }
+
+    .co-sidebar {
+        position: relative;
+        left: 10%;
+        width: 80%;
+     }
+     
+     .topic-content { 
+        width: 100%;
+        margin-left: 0;
+    }
+}

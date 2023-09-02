@@ -1,0 +1,25 @@
+.stack-video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.stack-video-container > a {
+    text-decoration: none;
+}
+
+.stack-ul-container li,  ul {
+    padding: 20px;
+}
+
+.stack-ul-container::before {
+    content: '';
+    position: absolute;
+    min-height: 16.5vw;
+    margin-top: 3.4%;
+    margin-left: .6%;
+    border: .1px solid black;
+}
+

@@ -1,0 +1,43 @@
+.bubble-container {
+    display: grid;
+    gap: 4vw;
+}
+
+.bubble-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+  }
+  
+.bubble-box-table {
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid gray;
+}
+
+.bubble-box-table td {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    border-left: 1px solid gray;
+    background-color: rgb(192, 243, 192);
+}
+
+#bubble-color {
+    background-color: rgb(236, 208, 213);
+}
+
+.bubble-video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bubble-video-container > a {
+    text-decoration: none;
+}
+
+  
